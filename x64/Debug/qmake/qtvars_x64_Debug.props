@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_QUICKCONTROLS2_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_QMLMODELS_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>E:\Coding\QT\5.14.1\msvc2017_64\include;E:\Coding\QT\5.14.1\msvc2017_64\include\QtQuickControls2;E:\Coding\QT\5.14.1\msvc2017_64\include\QtQuickWidgets;E:\Coding\QT\5.14.1\msvc2017_64\include\QtQuick;E:\Coding\QT\5.14.1\msvc2017_64\include\QtWidgets;E:\Coding\QT\5.14.1\msvc2017_64\include\QtGui;E:\Coding\QT\5.14.1\msvc2017_64\include\QtANGLE;E:\Coding\QT\5.14.1\msvc2017_64\include\QtQmlModels;E:\Coding\QT\5.14.1\msvc2017_64\include\QtQml;E:\Coding\QT\5.14.1\msvc2017_64\include\QtNetwork;E:\Coding\QT\5.14.1\msvc2017_64\include\QtCore;/include;E:\Coding\QT\5.14.1\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_LIBS_>E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5QuickControls2d.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5QuickWidgetsd.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5Quickd.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5Widgetsd.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5Guid.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5QmlModelsd.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5Qmld.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5Networkd.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\Qt5Cored.lib;E:\Coding\QT\5.14.1\msvc2017_64\lib\qtmaind.lib;shell32.lib</Qt_LIBS_>
+<Qt_LIBPATH_>C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib</Qt_LIBPATH_>
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);x64\Debug\moc;x64\Debug\uic</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >msvc2017_64</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >core;gui;network;qml;quick;quickcontrols2;quickwidgets;widgets</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVars
+      >DEFINES=/-D(\w+)/$1/;INCLUDEPATH=INCPATH/-I(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBS=/(?:\/LIBPATH:(?:\x22[^\x22]+\x22|[^\s]+))|(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBPATH=LIBS/\/LIBPATH:(\x22[^\x22]+\x22|[^\s]+)/$1/</QtBkup_QtVars>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+    <QtBkup_QtBuildConfig
+      >debug</QtBkup_QtBuildConfig>
+  </PropertyGroup>
+</Project>

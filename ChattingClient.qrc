@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Images/Albert_Einstein.png</file>
+        <file>Images/Blaise_Pascal.png</file>
+        <file>Images/Isaac_Newton.png</file>
+        <file>Images/Narrator.png</file>
+    </qresource>
+</RCC>

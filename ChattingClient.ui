@@ -1,0 +1,29 @@
+<UI version="4.0" >
+ <class>ChattingClientClass</class>
+ <widget class="QMainWindow" name="ChattingClientClass" >
+  <property name="objectName" >
+   <string notr="true">ChattingClientClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>ChattingClient</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="ChattingClient.qrc"/>
+ </resources>
+ <connections/>
+</UI>

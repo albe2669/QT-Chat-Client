@@ -1,0 +1,7 @@
+﻿  Reading Qt configuration (\bin\qmake.exe)
+ChattingClient.vcxproj : error : ERROR running qmake
+ChattingClient.vcxproj : error : qmake: (\bin\qmake.exe)
+ChattingClient.vcxproj : error : qmake: $PWD=C:\Users\alber\AppData\Local\Temp\5swowxkd.53k
+ChattingClient.vcxproj : error : qmake: Den angivne sti blev ikke fundet.
+ChattingClient.vcxproj : error : qmake: Error creating Makefile
+ChattingClient.vcxproj : error : 
